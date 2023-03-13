@@ -9,4 +9,4 @@ To run this project, download the files locally to the same directory. Open in t
 I'd like to add a feature that puts a line through the winning play and make the winning announcment pop up on the screen. I'd also like to add a component that changes the color of the squares based on who's play it is. (i.e. Player one has black squares, player 2 has orange squares).
 
 ## License 
-LICENSE
+http:LICENSE
