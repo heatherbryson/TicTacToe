@@ -1,0 +1,47 @@
+button {
+  background-color: #000000;
+  border: 6px solid #ff009d;
+  border-radius: 10px;
+}
+
+.game-board {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(#ff009d, #f0a400);
+  color: #000000;
+  border: 6px solid #00eaff;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.grid-row {
+  border: 6px linear-gradient(#ff009d, #f0a400);
+  border-radius: 6px;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  font-size: 4em;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-image: linear-gradient(#ff009d, #f0a400);
+}
+
+.block {
+  background-color: #ff00aa;
+  border: 6px solid #00eaff;
+  border-radius: 6px;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  font-size: 20em;
+}
+
+.orange {
+  color: #f0a400;
+}
+
+.blue {
+  color: #00eaff;
+}
